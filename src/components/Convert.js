@@ -10,7 +10,7 @@ import Button from "@mui/material/Button";
 
 function Convert() {
   const { data, setCurrencyChange, currencyChange } = useAppContext();
-  const [currencyAmount, setCurrencyAmount] = useState();
+  const [currencyAmount, setCurrencyAmount] = useState("");
   const [currencyInfo, setCurrencyInfo] = useState({
     buy: 0,
     sell: 0,
